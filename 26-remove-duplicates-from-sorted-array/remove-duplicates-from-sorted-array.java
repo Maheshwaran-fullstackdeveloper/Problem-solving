@@ -11,6 +11,6 @@ class Solution {
                 nums[left] = nums[right];
             }
         }
-        return left + 1;
+        return left + 1; //length
     }
 }
