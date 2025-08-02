@@ -10,6 +10,7 @@ class Solution {
                 left++;
                 right++;
             }
+            // elements in their right place
             else if(nums[left] != 0) {
                 left++;
                 right++;
