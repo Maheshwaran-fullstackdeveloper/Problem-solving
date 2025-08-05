@@ -13,6 +13,6 @@ class Solution {
                 res[e] = intervals[i];
             }
         }
-        return Arrays.copyOfRange(res, 0, e +1);
+        return Arrays.copyOfRange(res, 0, e +1);//returns res with index 0 to e + 1
     }
 }
